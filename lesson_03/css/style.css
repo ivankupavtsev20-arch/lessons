@@ -1,6 +1,6 @@
 @import url("reset.css");
 
-.main-title{
+#top{
    color: cornflowerblue;
 }
 
@@ -20,7 +20,7 @@
    color: red;
 }
 
-.title1{
+#section-01{
    color: burlywood;
 }
 
@@ -32,7 +32,7 @@
    color: blueviolet;
 }
 
-.title2{
+#section-02{
    color: chartreuse;
 }
 
@@ -40,7 +40,7 @@
    color: darkslateblue;
 }
 
-.title3{
+#section-03{
    color: forestgreen;
 }
 
@@ -48,7 +48,7 @@
    color: blue;
 }
 
-.title4{
+#section-04{
    color: grey;
 }
 
@@ -56,7 +56,7 @@
    color: cadetblue;
 }
 
-.title5{
+#section-05{
    color: indigo;
 }
 
@@ -64,7 +64,7 @@
    color: gold;
 }
 
-.title6{
+#section-06{
    color: lime;
 }
 
@@ -76,7 +76,7 @@
    color: rosybrown;
 }
 
-.title7{
+#section-07{
    color: orangered;
 }
 
@@ -84,7 +84,7 @@
    color: cornflowerblue;
 }
 
-.title8{
+#section-08{
    color: springgreen;
 }
 
@@ -92,18 +92,12 @@
    color: rgb(80, 0, 184);
 }
 
-.text12{
-   color: coral;
-}
-
-
-
 .text13{
    color: crimson;
 }
 
-.title9{
-   color: royalblue;
+#section-09{
+   color: blueviolet;
 }
 
 .text14{
@@ -116,4 +110,16 @@
 
 .custom-ul{
    color: chartreuse;
+}
+
+[class*="te"]{
+color: darkblue;
+}
+
+div.text{
+   color: magenta;
+}
+
+p#top2{
+   color: brown;
 }
