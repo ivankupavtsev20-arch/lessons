@@ -24,8 +24,8 @@
    color: burlywood;
 }
 
-.text5{
-   color: green;
+h2+p{
+   color: brown;
 }
 
 .text6{
@@ -72,7 +72,7 @@
    color: orchid;
 }
 
-.custom-list{
+ol li{
    color: rosybrown;
 }
 
@@ -92,11 +92,15 @@
    color: rgb(80, 0, 184);
 }
 
+#section-09 {
+   color: blueviolet;
+}
+
 .text13{
    color: crimson;
 }
 
-#section-09{
+#section-10{
    color: blueviolet;
 }
 
@@ -108,11 +112,11 @@
    color: cadetblue;
 }
 
-.custom-ul{
+.custom-ul text{
    color: chartreuse;
 }
 
-[class*="te"]{
+[class*="bl"]{
 color: darkblue;
 }
 
@@ -122,4 +126,16 @@ div.text{
 
 p#top2{
    color: brown;
+}
+
+ul>li{
+   color: sienna;
+}
+
+h2~p{
+   color: darkgoldenrod;
+}
+
+.title, .highlight{
+   color: red;
 }
